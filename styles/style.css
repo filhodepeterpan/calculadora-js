@@ -21,16 +21,14 @@ body{
     text-align: center;
     align-items: center;
 }
-.calculadora-superior{
-    width: 100%;
-    max-width: 100%;
-}
 .calculadora-inferior-linha{
     display: flex;
     width: 100%;
     justify-content: center;
 }
 input{
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
     box-sizing: border-box;
     text-align: end;
     width: 100%;

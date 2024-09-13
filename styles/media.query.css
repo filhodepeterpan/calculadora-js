@@ -1,11 +1,39 @@
 @import url(root.css);
 
+/* Celulares */
 @media(max-width:1200px){
     .calculadora{
         position: relative;
-        margin: 6rem 1.5rem 2rem 1.5rem;
+        margin: 12rem 1.5rem 2rem 1.5rem;
         top: 0;
         left: 0;
         transform: none;
+    }
+    .button{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/* Tablets */
+@media(max-width:1024px) and (min-width:600px){
+    .calculadora{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    input{
+        width: 600px;
+        padding: 3rem 0;
+    }
+    button{
+        width: 120px;
+        height: 120px;
+        font-size: 2rem;
+    }
+    #limpar{
+        font-size: 1.3rem;
     }
 }

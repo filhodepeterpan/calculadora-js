@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/calculadora.ico"> <!--Fonte do Ícone: https://www.flaticon.com/br/icones-gratis/calculadora-->
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.query.css">
+    <title>Calculadora em JS</title>
+</head>
+<body>
+    <div class="calculadora">
+        <div class="calculadora-superior">
+            <input type="text" id="visor" readonly>
+        </div>
+        <div class="calculadora-inferior">
+            <div class="calculadora-inferior-linha">
+                <button id="num7" onclick="tecla7()">7</button>
+                <button id="num8" onclick="tecla8()">8</button>
+                <button id="num9" onclick="tecla9()">9</button>
+                <button id="dividir" onclick="teclaDividir()">/</button>
+                <button id="fatorar" onclick="teclaFatorar()">!</button>
+            </div>
+            <div class="calculadora-inferior-linha">
+                <button id="num4" onclick="tecla4()">4</button>
+                <button id="num5" onclick="tecla5()">5</button>
+                <button id="num6" onclick="tecla6()">6</button>
+                <button id="multiplicar" onclick="teclaMultiplicar()">*</button>
+                <button id="parentesesAbertura" onclick="teclaAbreParenteses()">(</button>
+            </div>
+            <div class="calculadora-inferior-linha">
+                <button id="num1" onclick="tecla1()">1</button>
+                <button id="num2" onclick="tecla2()">2</button>
+                <button id="num3" onclick="tecla3()">3</button>
+                <button id="multiplicar" onclick="teclaSubtrair()">-</button>
+                <button id="parentesesFechadura" onclick="teclaFechaParenteses()">)</button>
+            </div>
+            <div class="calculadora-inferior-linha">
+                <button id="num0" onclick="tecla0()">0</button>
+                <button id="ponto" onclick="teclaPonto()">.</button>
+                <button id="limpar" onclick="teclaLimpar()">LIMPAR</button>
+                <button id="somar" onclick="teclaSomar()">+</button>
+                <button id="resultado" onclick="calculaOperacao()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.2.1/math.min.js"></script> <!--lib math.js com a função evaluate()-->
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

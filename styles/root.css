@@ -1,0 +1,12 @@
+:root{
+    --cor-primaria: rgb(237, 235, 235) ;
+    --cor-secundaria: grey ;
+    --cor-terciaria: rgb(255, 255, 195);
+    --cor-quaternaria: rgb(255, 174, 174);
+    --cor-destaque: blue;
+    --cor-destaque-light: rgb(131, 131, 255);
+    --fonte-padrao: "Arial";
+    --fonte-destaque: ;
+    --arredondamento: ;
+    --sombra: ;
+}

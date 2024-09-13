@@ -1,0 +1,11 @@
+@import url(root.css);
+
+@media(max-width:1200px){
+    .calculadora{
+        position: relative;
+        margin: 6rem 1.5rem 2rem 1.5rem;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+}

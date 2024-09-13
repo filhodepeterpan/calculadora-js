@@ -40,6 +40,11 @@ input{
     margin: 0 0 1rem 0;
     font-size: 1.5rem;
 }
+input::placeholder{
+    font-size: 0.7rem;
+    text-align: center;
+    font-style: italic;
+}
 button{
     margin: 0.1rem;
     width: 60px;

@@ -38,6 +38,7 @@ function teclaDividir() {
 }
 function teclaFatorar() {
     visor.value += "!";
+    calculaOperacao();
 }
 function teclaSomar() {
     visor.value += "+";
